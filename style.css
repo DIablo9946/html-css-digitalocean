@@ -3,7 +3,7 @@
 header {
   width: 100%;
   position: absolute;
-  height: 101px;
+  /* height: 101px; */
 }
 
 .second-head {
@@ -45,10 +45,11 @@ header {
 
 #first {
   width: 100%;
-  height: 750px;
+  /* height: 750px; */
   margin-top: 102px;
   background-image: url("img/bg.jpg");
   background-size: cover;
+  padding: 150px 0px;
 
 }
 
@@ -90,10 +91,10 @@ header {
 /* Mi occupo della seconda sezione */
 
 #second {
-  height: 270px;
+  /* height: 270px; */
   width: 100%;
   background-color: #F3F5F9;
-  padding: 15px 0px;
+  padding: 150px 0px;
   text-align: center;
 }
 
@@ -114,8 +115,24 @@ header {
   padding-bottom: 60px;
   width: 100%;
   height: 790px;
-  text-align: center;
+  /* text-align: center; */
 }
+
+.buttontag {
+  border: 0px;
+  border-left: 3px solid gray;
+  outline: none;
+  background-color: white;
+  display: block;
+}
+
+.selected {
+  border-left: 3px solid blue;
+
+}
+
+
+
  #leftbo {
    outline:none;
    border-left: 5px solid gray;
