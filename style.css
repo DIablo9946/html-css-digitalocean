@@ -1,3 +1,5 @@
+/* Mi occupo del header ma chiedere dei problemi relativi all'esistenza dello stesso */
+
 header {
   width: 100%;
   position: absolute;
@@ -21,10 +23,17 @@ header {
    padding-right: 10px;
  }
 
-.signinbut {
+/* #signinbut {
   color: blue;
   background-color: white;
+} */
+
+.btn-primary.btn-white {
+  background-color: white;
+  color: blue;
 }
+
+
 
 #topbut, #more {
   display: inline-block;
@@ -78,7 +87,7 @@ header {
 
 
 
-
+/* Mi occupo della seconda sezione */
 
 #second {
   height: 270px;
@@ -98,7 +107,7 @@ header {
 
 
 
-
+/* Mi occupo della terza sezione  */
 
 #third {
   padding-top: 120px;
@@ -111,3 +120,78 @@ header {
    outline:none;
    border-left: 5px solid gray;
  }
+
+
+ /* Mi occupo della quarta sezione */
+
+#fourth {
+  width: 100%;
+  height: 1000px;
+  padding: 120px 0px;
+  background-color: #F3F5F9;
+  text-align: center;
+}
+
+/* Mi occupo della quinta sezione */
+
+#fifth {
+  width: 100%;
+  height: 590px;
+  padding: 120px 0px;
+  text-align: center;
+}
+
+
+/* Mi occupo della sesta sezione */
+
+#sixth {
+  width: 100%;
+  height: 740px;
+  padding: 120px 0px;
+  background-color: #F3F5F9;
+  text-align: center;
+}
+
+/* Mi occupo della sezione wolrd */
+
+#world {
+  width: 100%;
+  height: 640px;
+  padding: 120px 0px;
+  text-align: center;
+}
+
+
+/* Mi occupo della settima  sezione */
+
+#seventh {
+  height: 244px;
+  padding: 64px 0px;
+  width: 100%;
+  background-image: url("img/bg.jpg");
+  text-align: center;
+}
+
+
+/* Mi occupo del footer  */
+
+footer {
+  height: 600px;
+  width: 100%;
+  padding: 96px 0px;
+  background-color: #010E28;
+}
+
+footer h5 {
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+footer a {
+  line-height: 30px;
+  color: gray;
+}
